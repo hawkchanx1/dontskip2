@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Don't Skip",
+    "slug": "dontskip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.example.dontskip"
+    }
+  }
+}
