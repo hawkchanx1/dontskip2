@@ -1,16 +1,25 @@
 {
   "expo": {
-    "name": "Don't Skip",
+    "name": "DontSkip",
     "slug": "dontskip",
     "version": "1.0.0",
     "orientation": "portrait",
     "platforms": ["android"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.example.dontskip"
+      "package": "com.yourname.dontskip"
     }
   }
 }
